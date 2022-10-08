@@ -10,9 +10,9 @@ import asyncio
 import re
 from os import mkdir, system
 
-AppId=os.environ.get("API_ID")  #Replace With Your Own
-AppHash=os.environ.get("API_HASH") #Replace With Your Own
-BotToken=os.environ.get("BOT_TOKEN")  #Replace With Your Own
+AppId=os.environ.get("19987622")  #Replace With Your Own
+AppHash=os.environ.get("00d42b460cef01c13d97dad1f417194e") #Replace With Your Own
+BotToken=os.environ.get("5587381762:AAFn1SttATDWuuPlEqFslZx9aeKaEZC0YbU")  #Replace With Your Own
 app = Client("FFMpvdvdvdvegot", api_id=AppId, api_hash=AppHash, bot_token=BotToken)
 
 
